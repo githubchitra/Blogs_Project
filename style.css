@@ -15,7 +15,7 @@
 
 img{
     height: 250px;
-    width: 350px;
+    width: 340px;
     border: 0 solid black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -27,10 +27,12 @@ img{
     grid-template-rows: repeat(2,1fr);
     gap: 3rem;
     place-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(200px,300px));
+    justify-content: center;
 }
 
 .division{
-    height: 500px;
+    height: 450px;
     border: 1px solid rgb(188, 186, 186);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -49,7 +51,7 @@ button{
     height: 60px;
     width: 50px;
     border: 1px solid rgb(143, 128, 128);
-    border-radius: 20px;
+    border-radius:20rem;
     padding: 0;
 }
 
